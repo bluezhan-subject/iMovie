@@ -1,0 +1,80 @@
+/* 鍔ㄦ�瀵艰埅 */
+.menu-container{
+  position: absolute;
+  right: 0;
+  top:45px;
+  background-color: #f9f9f9;
+  width: 120px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,.2);
+  border: 1px solid #ddd;
+  border-top: none;
+  border-right: none;
+}
+.menu-container li{
+  height: 42px;
+  line-height: 42px;
+  text-indent: 60px;
+  color: #848484;
+  margin: 10px 0;
+}
+.menu-container .home{
+  background: #f9f9f9 url(../../Images/common/btn-home.png) no-repeat 15px center;
+  background-size: 41px 40px;
+}
+.menu-container .search{
+  background: #f9f9f9 url(../../Images/common/btn-search.png) no-repeat 15px center;
+  background-size: 41px 40px;
+}
+.menu-container .sns{
+  background: #f9f9f9 url(../../Images/common/btn-sns.png) no-repeat 15px center;
+  background-size: 41px 40px;
+}
+.menu-container .my{
+  background: #f9f9f9 url(../../Images/common/btn-my.png) no-repeat 15px center;
+  background-size: 41px 40px;
+}
+
+.menu-container li a{
+  color: inherit;
+}
+
+.favor-btn {
+  position: absolute;
+  top: 2px;
+  right: 60px;
+  width: 30px;
+  height: 42px;
+  background: url(../../Images/common/love-icon.png) no-repeat center center;
+  background-size: 19px 16px
+}
+
+
+.favored-btn {
+  position: absolute;
+  top: 2px;
+  right: 60px;
+  width: 30px;
+  height: 42px;
+  background: url(../../Images/common/love-icon-red.png) no-repeat center center;
+  background-size: 19px 16px
+}
+
+.share-btn {
+  position: absolute;
+  top: 2px;
+  right: 30px;
+  width: 30px;
+  height: 42px;
+  background: url(../../Images/common/share-icon.png) no-repeat center center;
+  background-size: 20px 15px
+}
+
+.func-btn {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  width: 30px;
+  height: 42px;
+  background: url(../../Images/common/func-icon-red.png) no-repeat center center;
+  background-size: 9px 20px
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Roots>
+	
+    <App FHttp="App/index.html" AppJS="clientInit" Return="1"
+        AppProgress="0" ProgressMsg="加载中..." DropRefresh="" RuturnView="1" />
+    
+	<Caption CaptionEnable="1" CaptionHide="1" CaptionTemplate="1"
+		CaptionName="Demo" CaptionColor="FFFFFF"
+		CaptionBackground="title_bg.png" CaptionLeftIconHide="0" TopCaption=""
+		CaptionLeftIcon="title_return.png" CaptionLeftIconSelect="title_return.png"
+		CaptionLeftActionType="10004" CaptionLeftIconApp="returnBack" CaptionLeftTitle="返回"
+		CaptionRightIconHide="0" CaptionRightIcon="topic_top_right.png" CaptionRightTitle="编辑"
+		CaptionRightIconSelect="topic_top_right.png" CaptionRightActionType="10004" 
+		CaptionRightIconApp="Edit" />
+        
+    <CustomInput InputEnable="1" Hide="1" FaceIcon="smile2.png" LeftHide="0" LeftTitle=""
+        LeftIcon="pics2.png" LeftBackground="" LeftJS="ads" RightHide="0" RightTitle="提交"
+        RightIcon="" RightBackground="FBblueBtn.png" RightJS="submitJs" />
+    
+	<Tools  Enable="1" ToolsHide="1" ToolsTemplate="2" KeepSelStatus="0"
+        ToolsType="3" ToolsHeight="0" ToolsCaption="首页,搜索,微社区,我"
+        ToolsIcon="home_selected.png,storeList_normal.png,socialContact_normal.png,personal_normal.png"
+		ToolsBtnID="0,1,2,3" ToolBtnVisble="1,1,1,1" ToolsApp="100000,300001,1000004,0" 
+		ToolsLocalJS="0,0,0,0" ToolsJS="goHome,goSearch,goSns,goMy"
+		 ToolsIconSelect="0,0,0,0" ToolsCaptionColor="cccccc"
+        ToolsCaptionColorSelect="FFFFFF" ToolsAppBackground="exchange.png"
+        ToolsAppBackgroundselect="exchange_sel.png" ToolsBackground="exchange.png" ToolsTop="1" ></Tools>
+    
+</Roots>

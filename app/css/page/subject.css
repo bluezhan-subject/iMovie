@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS Document */
+.page-subject {
+  /**/
+  /*作品属性*/
+  /**/ }
+  .page-subject .menu {
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border-bottom: 1px solid #EDEDED; }
+  .page-subject .menu-btn {
+    float: left;
+    width: 50px;
+    height: 45px;
+    overflow: hidden; }
+  .page-subject .menu-btn p {
+    width: 22px;
+    height: 3px;
+    margin: 0 auto;
+    background-color: #B3B3B3;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px; }
+  .page-subject .menu-btn p:nth-child(1) {
+    margin-top: 13px; }
+  .page-subject .menu-btn p:nth-child(2) {
+    margin-top: 5px; }
+  .page-subject .menu-btn p:nth-child(3) {
+    margin-top: 5px; }
+  .page-subject .heng {
+    float: left;
+    width: 1px;
+    height: 31px;
+    margin-top: 7px;
+    background-color: #D5D5D5; }
+  .page-subject .menu > p {
+    width: auto;
+    height: 45px;
+    line-height: 45px;
+    text-indent: 15px;
+    font-size: 15px;
+    color: #484848; }
+  .page-subject .this-name {
+    margin-top: 30px;
+    line-height: 50px;
+    text-indent: 20px;
+    font-size: 30px; }
+  .page-subject .this-title {
+    font-size: 14px;
+    text-indent: 20px; }
+  .page-subject .this-pic {
+    width: 90%;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-top: 10px;
+    overflow: hidden;
+    height: 200px;
+    background-color: #fff; }
+  .page-subject .this-pic p {
+    width: 100%;
+    height: 200px; }
+  .page-subject .this-pic img {
+    width: 100%;
+    height: auto; }
+  .page-subject .this-pic div {
+    width: 100%;
+    height: 70px;
+    margin-top: -70px;
+    position: relative;
+    background-color: rgba(22, 22, 22, 0.7);
+    color: #fff; }
+  .page-subject .this-pic ul {
+    width: auto;
+    height: 40px;
+    float: left;
+    margin: 10px; }
+  .page-subject .this-pic ul li span.shou {
+    font-size: 18px;
+    color: #F58B1D; }
+  .page-subject .this-pic ul li span.wei {
+    color: #F58B1D; }
+  .page-subject .this-pic ul li {
+    clear: both;
+    height: 25px;
+    line-height: 25px;
+    font-size: 15px; }
+  .page-subject .about {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 14px; }
+  .page-subject .go-button {
+    width: 90%;
+    height: 35px;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-top: 30px;
+    text-align: center; }
+  .page-subject .go-button div {
+    width: 50%; }
+  .page-subject .go-button > div button {
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: #EEEEEE;
+    line-height: 35px;
+    text-align: center;
+    color: rgba(75, 75, 75, 0.9);
+    font-size: 16px;
+    padding: 0 20px; }
+  .page-subject .go-button > div:nth-child(1) {
+    float: left; }
+  .page-subject .go-button > div:nth-child(2) {
+    float: right; }
+
+/*# sourceMappingURL=subject.css.map */

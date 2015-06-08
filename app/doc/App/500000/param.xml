@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Roots>
+    <!-- SQL -->
+    <LoadSQLinsert OperatorType="1" PassContent="f1TeE1MwqmqOjiMFIM1nJjy6Joh8DP/EptEeXxVaH7I=" />
+    
+    <!-- WebService -->
+<!--     <Test platFormId ="GUON2l4Tb3c+4ysJUI05hbotOuEnxkWI" projectId="P6GEpS8fPOw=" urlNode="AbilityPlatForm" -->
+<!--     data="N0rCJFQddhx/VN4TUzCqauAYL+IAvRDJBBKNk4Qcvu1//pwVD7KDxQ==" /> -->
+    
+    
+     <Test platFormId="GUON2l4Tb3fUPgoqZEtFwrotOuEnxkWI" projectId="P6GEpS8fPOw=" urlNode="SpgtUrl"
+
+    data="tC42ulvwnZKRYHpoF4yGBiW6IuCWMsQHIrDDhbSZh6Z2oRCLdxVmWg==" />
+    <xmlOperator1 platFormId="GUON2l4Tb3fUPgoqZEtFwrotOuEnxkWI" projectId="P6GEpS8fPOw=" urlNode="SpgtUrl"
+
+    data="cINmDtVummkuEoBU0afGXpRWbiGyATCSmsEhiGf5dxrwubet0ufxthbc5fRXSYwH"/>
+    <xmlfrontLog  platFormId="GUON2l4Tb3fUPgoqZEtFwrotOuEnxkWI" projectId="P6GEpS8fPOw=" urlNode="SpgtUrl"
+     data="akfCG7hG6PSM92ao91tK7kl64176jB2G0iL9F+OqR+Bx1+jSjnQYhiwI7qgD+ta16j/ohndfmMLXwInW2NdlM39Ac8fB4nkXya3Zl1mHB7vBNq+EQUfYezeRf7LYgLkPYqnnnEG/ac9KHx79wjtn5VCyNbpdLiWp0ByswtEcdQGBXXANPV7YulLtgjdnH1x2"/>  
+   
+    <xmlserviceAd  platFormId="GUON2l4Tb3fUPgoqZEtFwrotOuEnxkWI" projectId="P6GEpS8fPOw=" urlNode="SpgtUrl"
+     data="XQuTCeJDoPzbinKTk7ZH0A=="/>  
+     
+      <xmlshopCoupon platFormId="GUON2l4Tb3fUPgoqZEtFwrotOuEnxkWI" projectId="P6GEpS8fPOw=" urlNode="SpgtUrl"
+
+    data="XQuTCeJDoPzbinKTk7ZH0A=="/>
+      
+      
+       <xmlfrontLog  platFormId="GUON2l4Tb3fUPgoqZEtFwrotOuEnxkWI" projectId="P6GEpS8fPOw=" urlNode="SpgtUrl"
+     data="SY2aC1QR0r9fDM+8Ep92199u33p+6TT9fa/DehljZJqd/YEJcQeOzRVQF4/A5bGLbOCKHI+dy7VW2haCXtQe+C+wQPEOnQ1j4B4Udk95Uodck2bsmHYsdXoQHdtpPv//CsfE49Jq00nNx08sh4ANH5D+cgv2IUVAJLattDDFG4H4pWt81Tdg9h68IgW7hQK5"/>  
+   
+      <xmlgetIps  platFormId="GUON2l4Tb3fUPgoqZEtFwrotOuEnxkWI" projectId="P6GEpS8fPOw=" urlNode="SpgtUrl"
+     data=""/>  
+     
+      
+        <xmlbaseSql platFormId="GUON2l4Tb3fUPgoqZEtFwrotOuEnxkWI" projectId="P6GEpS8fPOw=" urlNode="SpgtUrl"
+
+       data="yATQEECSp7UIICn3lqa9r3/PRVduQSK0"/>
+   
+</Roots>
+
+

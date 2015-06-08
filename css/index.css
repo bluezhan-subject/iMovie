@@ -1,0 +1,257 @@
+
+
+
+.page {
+	width: 100%; height: auto;
+
+}
+
+.header {
+	height: 650px;
+	background-color: #D1473A;
+
+}
+
+.header h1 {
+	text-align: center;
+	font-size: 100px;
+	padding-top: 80px;
+	color: #fff;
+	font-family: "\534E\6587\6977\4F53";
+	font-style: italic;
+}
+.header h2 {
+	text-align: center;
+	color: #fff;
+	font-style: italic;
+	font-size: 25px;
+	padding-bottom: 90px;
+	font-family: "534E\6587\96B6\4E66";
+
+}
+.header p {
+	width: 100%;height: auto;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	cursor: default;
+   
+}
+.header p span {
+	padding-right: 8px;
+   color: rgba(209,209,209,.5);
+}
+
+div.arrow {
+	margin: 0 auto;
+	width: 0;height: 0;
+	border-top: 50px solid #D1473A;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 0 solid transparent;
+}
+
+/* twe-show */
+
+.twe-show {
+	height: auto;
+	background-color: #00CA74;
+}
+.twe-show div.show-img {
+	margin: 0 auto;
+	width: 850px;
+	height: auto;
+	overflow: hidden;
+}
+.twe-show div.show-img img {
+	width: 100%;height: auto;
+}
+
+/* intro-app */
+
+.intro-app {
+	overflow: hidden;
+    height: auto;
+	background-color: #9E7BB5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.intro-arrow {
+   border-top: 50px solid #00CA74 !important;
+}
+
+div.p-text {
+	margin: 0 auto; padding-top: 35px; margin-bottom: 50px;
+   width: 56%; height: auto;
+}
+div.p-text p {
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+
+.intro-area {
+	margin: 0 auto;
+	width: 100%; height: auto;
+}
+
+.area-header {
+	margin: 0 auto;
+	width: 400px;
+	height: 200px; margin-bottom: 150px;
+}
+.area-header p {
+	position: absolute;overflow: hidden;
+	border-radius: 500px;  -moz-border-radius: 500px; -webkit-border-radius: 500px; 
+}
+.area-header p img {
+  width: 100%; height: auto;
+}
+.area-header p:nth-child(1) {
+	z-index: 5;
+	width: 150px; height: 150px;
+    margin-top: 25px;
+
+}
+.area-header p:nth-child(2) {
+	z-index: 5;
+	width: 150px; height: 150px;
+	margin-left: 250px;
+    margin-top: 25px;
+
+}
+.area-header p:nth-child(3) {
+	z-index: 9;
+	width: 200px; height: 200px;
+    margin-left: 100px;
+    border: 5px solid rgba(233,233,233,.4);
+}
+
+
+/* ico-show */
+
+.ico-show {
+	overflow: hidden;
+    height: auto;
+    padding-bottom: 100px;
+	background-color: #3E4146;
+
+}
+
+div.ico-arrow {
+	border-top: 50px solid #9E7BB5;
+}
+p.logo-design {
+   text-align: center;
+   font-size: 25px;
+   color: #fff;
+   padding-top: 50px; padding-bottom: 20px;
+}
+
+.logo-big {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 400px;
+	height: auto;
+}
+.logo-big img {
+	width: 100%; height: auto;
+}
+.logo-san {
+	overflow: hidden;
+	margin: 0 auto;
+	width: 400px; 
+	height: auto;
+}
+.logo-san img {
+	width: 100%; height: auto;
+}
+
+
+
+/* get-start */
+.get-start {
+    height: 600px;
+    padding-top: 100px;
+    background-color: #ffffff;
+
+}
+
+div.get-arrow {
+	border-top: 50px solid #9E7BB5;
+}
+
+.get-start-word {
+	text-align: center;
+	font-size: 50px; padding-top: 60px; padding-bottom: 45px;
+	font-family: serif;
+	color: #666666;
+
+
+}
+
+.get-start-button {
+	margin: 0 auto; overflow: hidden;
+	width: 400px; height: 60px;
+	
+}
+
+.get-start-button button {
+	position: relative;
+   width: 175px; height: 50px;
+   line-height: 50px;
+   color: #fff;
+   text-align: center;
+   font-weight: bold;
+   border-radius: 5px;  -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+}
+.get-start-button button:active	{ top: 1px; }
+.get-start-button button.sign-up {
+	background-color: #9E7BB5;
+    
+
+}
+
+.get-start-button button.download {
+	background-color: #92C59A;
+	float: right;
+
+}
+
+.shuo-m {
+	margin: 0 auto;
+	width: 50%; height: auto;
+	padding-top: 45px;
+    color: #A8A8A8;
+    text-align: center;
+    font-size: 16px;
+}
+
+.shuo-m span {
+	color: #F07336;
+}
+
+
+/* about-me */
+
+.about-me {
+	height: 600px;
+    padding-top: 250px;
+    background-color: #363636;
+}
+
+
+.think {
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+	padding: 45px 0;
+	font-family: cursive;
+}
+
+.di-han {
+	text-align: center;
+	color: #fff;
+	font-family: serif;
+
+}

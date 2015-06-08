@@ -1,0 +1,333 @@
+body {
+	background-color: #f5f3f3
+}
+
+.favor-btn {
+	position: absolute;
+	top: 2px;
+	right: 60px;
+	width: 30px;
+	height: 42px;
+	background: url(../../Images/common/love-icon.png) no-repeat center center;
+	background-size: 19px 16px
+}
+
+.share-btn {
+	position: absolute;
+	top: 2px;
+	right: 30px;
+	width: 30px;
+	height: 42px;
+	background: url(../../Images/common/share-icon.png) no-repeat center center;
+	background-size: 20px 15px
+}
+
+.func-btn {
+	position: absolute;
+	top: 2px;
+	right: 0;
+	width: 30px;
+	height: 42px;
+	background: url(../../Images/common/func-icon.png) no-repeat center center;
+	background-size: 9px 20px
+}
+
+.shop-info {
+	background: #fff;
+	margin-top: 45px;
+	padding: 5px 0;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.shop-info dl {
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.shop-img {
+	display: inline-block;
+	float: left;
+	width: 25%;
+	height: 80px;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	background-color: #fff;
+	border: 1px solid #E0E0E0;
+	margin: 15px 10px 0 12px;
+}
+
+.shop-rank {
+	display: inline-block;
+	overflow: hidden;
+	vertical-align: top;
+	float: right;
+	width: 66%;
+}
+
+.tel a {
+	color: inherit;
+}
+
+.shop-rank ul li {
+	text-align: left;
+	line-height: 36px;
+	border-bottom: 1px solid #E0E0E0;
+	background: url(../../Images/common/shop-floor.png) no-repeat 0 center;
+	text-indent: 30px;
+	background-size: 20px 22px;
+}
+
+.shop-rank ul li:first-child {
+	background: url(../../Images/common/shop-tag.png) no-repeat 0 center;
+	background-size: 24px 22px;
+}
+
+.shop-rank ul li:last-child {
+	border-bottom: none;
+	background: url(../../Images/common/shop-tel.png) no-repeat 0 center;
+	background-size: 20px 22px;
+}
+
+.shop-dec {
+	background: #fff;
+	margin-top: 15px;
+	padding: 14px 12px 0;
+	border-bottom: 1px solid #E0E0E0;
+	border-top: 1px solid #E0E0E0;
+	width: 100%;
+}
+
+.shop-dec h4{
+	font-weight: normal;
+	margin-bottom: 14px;
+}
+
+.more {
+	background: url(../../Images/common/btn-more.png) no-repeat 0 center;
+	background-size: 18px 8px;
+	text-indent: 24px;
+	color: #11B3E1;
+	font-size: 1em
+}
+
+.brand-search p{
+	width: 100%;
+	text-align: center;
+	margin: 0;
+}
+
+.btn{
+  width: 95%;
+padding: 14px;
+border: none;
+margin: 10px auto 0;
+background:#F5F3F3 url(../../Images/common/btn-more-goods.png) no-repeat 38% center;
+background-size: 9px 16px;
+color: #11B3E1;
+font-size: 1.3em;
+text-indent: 30px;
+}
+
+.search-list {
+	background-color: #fff;padding-bottom: 10px;
+}
+
+.brand-search li {
+	float: left;
+	width: 50%;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.brand-search li>div {
+	width: 100%;
+}
+
+.brand-search li>div:first-child {
+	margin: 0 auto;
+	width: 80%;
+	height: auto;
+	min-width: 70px;
+	min-height: 70px;
+	margin-top: 20px;
+}
+       /*图片上的标签*/
+.brand-search li>div:first-child div {
+	position: absolute;
+	z-index: 1000;
+	width: 30%;
+	height: 20px;
+	margin-top: -10px;
+}
+
+.brand-search li>div:first-child div p {
+	float: left;
+	margin-bottom: 0px;
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+	font-size: 12px;
+	color: #FFF;
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	line-height: 20px;
+	text-align: center;
+}
+       /*图片*/
+.brand-search li>div:first-child img {
+	z-index: 99;
+	width: 100%;
+	height: auto;
+	min-width: 70px;
+	min-height: 70px;
+	border: 1px solid #DDDDDD;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+      
+       /*名称*/
+.brand-search li>div:nth-child(2) {
+	height: 40px;
+}
+
+.brand-search li>div:nth-child(2) p {
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	color:#E1114E;
+}
+
+.list-group{
+	background-color: #fff;
+	margin-top: 15px;
+}
+
+/*优惠券*/
+.coupon {
+
+}
+
+.coupon li {
+	clear: both;
+	width: 100%;
+	background-color: #FFF;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.coupon-img-msg {
+	float: left;
+	width: 75%;
+	margin-left: 2%;
+	overflow: hidden;
+}
+
+.coupon-img-msg dd{
+	height: 24px;
+	line-height: 24px;
+	width: 67%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+       /*优惠券的图片*/
+.coupon-img {
+	overflow: hidden;
+	float: left;
+	width: 70px;
+	height: 70px;
+	margin-right: 5px;
+	border: 1px solid #DDDDDD;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.coupon-img img {
+	width: auto;
+	height: 100%;
+}
+        /*优惠券的标题*/
+.coupon-msg-title {
+
+}
+
+.coupon-msg-title p {
+	font-size: 1em;
+	color: #1F1F1F;
+	margin-bottom: 0;
+}
+        /*优惠券的属性，“会员卡和免费”*/
+.coupon-msg-tag {
+	width: auto;
+	height: 20px;
+}
+
+.coupon-msg-tag p {
+	font-size: 14px;
+	color: #FF3401;
+}   
+      /*优惠券下载按钮和文字提示*/
+.coupon-btn {
+	float: right;
+ /*width: 16%;*/
+	height: 70px;
+	margin-top: 15px;
+	margin-right: 2%;
+}
+
+.coupon-btn div {
+	width: 50px;
+	height: auto;
+}
+
+.coupon-btn img {
+	width: 30px;
+	height: auto;
+	min-height: 30px;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+         /*文字*/
+.coupon-btn p {
+	width: 50px;
+	text-align: center;
+}
+           /*未下载时，显示现有的数字*/
+.coupon-btn p.down {
+	color: #A5A4A4;
+	font-size: 10px;
+}
+
+.coupon-btn p.down span {
+	font-size: 16px;
+}
+          /*下载后，显示“已下载”*/
+.coupon-btn p.downed {
+	color: #64C119;
+}
+.templet-header {
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #dedede;
+    padding: 0 12px 12px;
+
+}
+
+.templet-header p{
+	background:url(../../Images/common/btn-rb.png) no-repeat right 24px;
+	background-size: 9px 10px;
+	padding-right: 10px;
+	margin: 0;
+}
+
+.list-group h4{
+	font-weight: normal;
+	margin-bottom: 0;
+	line-height: inherit;
+}

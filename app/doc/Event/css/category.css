@@ -1,0 +1,144 @@
+@charset "utf-8";
+/*===================================
+ * Filename    :   category.css
+ * Description :   类目搜索
+ * Version     :   1.0.1 (2014-3-10) 
+ * Author      :   詹代俊(Diajoon)
+ *=================================== */
+
+*{margin: 0; border:0;padding: 0; list-style-type: none;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+img{vertical-align: middle;}
+
+body{ background-color:   #F5F3F3;}
+h6{margin: 0;padding: 8px 0 8px 10px;font-size: .8em;font-weight: normal;}
+.tab li{ width: 33.333333%;}
+.tab li a{float: left;padding: 5px 0;  width: 100%; text-align: center; cursor: pointer; text-decoration: none;color: #727272;font-weight: bold;      }
+.tab li b {left: 40%;}
+#search-box{position: absolute;top: 7px;left: 10%;width: 75%;height: 28px;	}
+
+.btn-back{position: absolute;top: 2px;left: 0px;width: 41px;height: 42px;background: url(../../Images/common/btn-back.jpg) no-repeat center center;
+  	background-size: 15px 25px;}
+.search-btn{position: absolute;top: 2px;right: 5px;width: 41px;height: 42px;background: url(../../Images/common/search-icon-red.png) no-repeat center center;
+  	background-size: 22px 22px;}
+
+.search-list{margin-top: 45px;}
+.btn{ width: 95%; padding: 10px; border: none; margin: 10px auto 0;}
+.hot-search-view{width: 95%;margin: 5px auto 0;}
+.hot-search-view a{display: inline-block;padding: 5px 10px;font-size: 1em;background-color: #95E4F0;color: #5c5c5c;margin: 8px 8px 8px 0;}
+
+/*===================================
+ * TabPosition :   tab1
+ * Description :   搜索里面的楼层展示
+ *=================================== */
+
+.floor-list-view{list-style: none;background-color: #F5F3F3;}
+.floor-list{width: 100%;background: #fff;display: -webkit-box;border-bottom: 1px solid #ccc;}
+
+.floor-list li{-webkit-box-flex: 1;padding: 16px 0;border-right: 1px solid #ccc;position: relative;}
+.floor-list li:nth-child(3){border-right:none;}
+.list-item .wrap {display: block;text-align: center;}
+.list-item .title {color: #333;font-size: 1em;line-height: 1.8em;height: 1.6em;overflow: hidden;}
+.list-item .info {color: #999;font-size: 12px;}
+.list-item .info b{
+	background: url(love-icon.png) no-repeat 12px center;background-size: 11px 9px;width: 60px;	display: block;margin: 0 auto;	text-indent: 16px;font-weight: normal;}
+.list-item .flag {position: absolute;left: 20px;top: 4px;}
+.list-item .flag .triangle {border-radius: 20px;padding:0 .5em;display: inline-block;}
+.orange{background: orange;}
+.red{background: red;}
+.text{color: #fff;font-size: .6em;}
+
+/*楼层展示的右边栏*/
+	#wrapper {position:relative;z-index:1;height:416px;overflow:hidden;	}
+	#scroller {width:100%;padding-bottom:44px;}
+	dd {width:100%; height:auto;}
+	#abc {position:absolute; z-index:1000;top:90px; right:4px;
+		width:28px; height:364px;-webkit-border-radius:14px;
+		text-align:center;font-size:11px;color:#6a737d;}
+	#abc li {padding-top:20px;font-weight:bold;}
+	#abc li:first-child {padding-top:6px;}
+	#abc.hover {background:rgba(106,115,125,0.5);}
+	/*先将标签隐藏，记得改回来*/
+	.flag{ display: none;}
+	/*滑动右边的栏，中间的提示*/
+	#roll-tips{display: none; position: absolute; z-index: 900; top: 50%;left: 0px; width: 100%; height: 80px; }
+	#roll-tips p{margin: 0 auto; width: 80px; height: 80px; line-height: 80px; text-align: center; font-size: 40px;  color: #FFF;background-color: rgba(22,22,22,.9);-webkit-border-radius:5px;}
+
+
+/*===================================
+ * TabPosition :   tab2
+ * Description :   搜索里面的品类选择
+ *=================================== */
+
+.big-div{ width: 100%; height: 416px;}
+
+/*品牌品类选择左边的菜单*/
+#nav-wrapper{position:relative;z-index:1;float: left; width: 20%;height: 416px; background-color: #FBF0F4;
+	overflow: hidden; }
+  .nav-scroller , .nav-scroller ul{width: 100%;height: auto;}
+
+  .nav-scroller li{ width: 100%; height: auto; text-align: center;}
+     /*nav的图片*/
+     .nav-scroller li img{ width: 50%; height: auto; margin-top: 5px; }
+     /*nav的名称*/
+     .nav-scroller li p{ width: 100%; height: 15px;text-align: center; font-size: 12px; font-weight: bold; line-height:15px;  margin:5px 0px; color: #5C5C5C;  white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;}
+   /*.nav-select 是为被选中的class*/
+   li.nav-select{ border-right: 2px solid #E1114E;}  
+   li.nav-select > p{color:#E1114E; }
+
+/*右边的侧面*/
+.the-right-side{float: right; width: 80%; height: auto; }
+
+	/*品牌筛选*/
+	.brand-filter{width: 100%; height: auto;}
+	  .brand-filter ul{ width: auto; height: auto; margin:0px 5px; }
+	  .brand-filter li{display: inline-block; width: 70px; height: 28px;   line-height: 28px;margin:5px 0px; font-size: 14px; text-align: center; color: #525252; border:1px solid #D9D7D8; border-radius: 50px; -moz-border-radius: 50px; -webkit-border-radius: 50px; }
+	  /*品牌筛选被选中的样式*/
+      .brand-filter-select{background-color: #E1114E; color: #FFF !important; }
+
+
+	/*品牌品类选择右边的展示*/
+	#category-wrapper{position:relative;z-index:1; width: 100%; height:400px; margin-top: 10px;overflow:hidden;}
+	.category-scroller{width: 100%; height: auto;overflow:hidden; } 
+	.category-scroller ul{ width: 92%; height: auto; margin-left: 4%; overflow:hidden; }
+		.category-scroller ul li{float: left; width: 30%; height: auto; margin-right:5%;  }
+			.category-scroller  ul li img{ width: 100%; height: auto; min-height: 60px;   border:1px solid #E3E3E3;}
+			.category-scroller ul li p{font-size: 14px; text-align: center; color: #5B5B5B; }
+	   .category-scroller  ul li:nth-child(3n+1){ margin-right: 0px !important ;  }
+	   .category-scroller ul li:last-child{ }
+
+ /*===================================
+ * TabPosition :   tab3
+ * Description :   搜索里面的品牌列表 
+ *=================================== */
+
+.brand-list ul {background: #fff; height: auto;}
+.brand-list li {width: 100%;height: 110px;border-bottom: 1px solid #DDDDDD;}
+.brand-list li dl {position: absolute;width: 100%;height: 80px;margin-top: 15px;}
+dt.search-key-img {overflow: hidden;float: left;width: 80px;height: 80px;margin-left: 10px;margin-right: 10px;border: 1px solid #DDDDDD;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+dt.search-key-img img{width:auto;height:100%;}
+dd.search-key-title{width:auto;height:20px;}
+dd.search-key-title>p{font-size:16px;font-weight:bold;color:#1F1F1F;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow:hidden;}
+div.search-key-title-tag{float:right;margin-top:-30px;margin-right:15px;}
+div.search-key-title-tag p{float:left;margin-bottom:0px;margin-right:5px;width:20px;height:20px;font-size:12px;color:#FFF;border-radius:50px;-moz-border-radius:50px;-webkit-border-radius:50px;line-height:20px;text-align:center;}
+p.p-sales{background-color:#FFA200}
+p.p-new{background-color:#EF2B2F}
+p.p-tuan{background-color:#07A469}
+dd.search-key-info{width:auto;height:32px;margin:4px 0px;overflow:hidden;text-overflow:ellipsis;}
+dd.search-key-info p{font-size:12px;margin-right:10px;line-height:16px;color:#4E4E4E;}
+dd.search-key-tag{width:auto;height:20px;margin-top:2em;}
+dd.search-key-tag p{float:left;color:#858585;font-size:14px;margin-right:10px;}
+dd.search-key-tag p img{float:left;width:auto;height:15px;margin-top:3px;margin-right:2px;}
+
+/*所有品牌的的右边栏*/
+	#wrapper-tab3 {position:relative;z-index:1;height:416px;overflow:hidden;	}
+	#scroller-tab3 {width:100%;padding-bottom:44px;}
+	dd {width:100%; height:auto;}
+	#abc-tab3 {position:absolute; z-index:1000;top:90px; right:4px;
+		width:28px; height:364px;-webkit-border-radius:14px;
+		text-align:center;font-size:11px;color:#6a737d;}
+	#abc-tab3 li {padding-top:20px;font-weight:bold;}
+	#abc-tab3 li:first-child {padding-top:6px;}
+	#abc-tab3.hover {background:rgba(106,115,125,0.5);}
+	/*滑动右边的栏，中间的提示*/
+	#roll-tips-tab3{display: none; position: absolute; z-index: 900; top: 50%;left: 0px; width: 100%; height: 80px; }
+	#roll-tips-tab3 p{margin: 0 auto; width: 80px; height: 80px; line-height: 80px; text-align: center; font-size: 40px;  color: #FFF;background-color: rgba(22,22,22,.9);-webkit-border-radius:5px;}

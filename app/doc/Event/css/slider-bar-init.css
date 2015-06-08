@@ -1,0 +1,206 @@
+.navbar-fixed-top, .navbar-fixed-bottom {
+position: fixed;
+right: 0;
+left: 0;
+z-index: 1030;
+}
+.container {
+margin-right: auto;
+margin-left: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
+#sb-site {
+	
+	padding: 1px 0 20px 0;
+}
+
+#adverts {
+	margin-top: 20px;
+}
+
+.advert {
+	border-radius: 3px;
+	border: 1px solid #727272;
+	margin-bottom: 10px;
+	padding: 3px;
+}
+
+.navbar {
+	width: 100%;
+	left: auto;
+	right: auto;
+}
+
+.sb-android .navbar {
+	position: absolute;
+}
+
+#logo {
+	margin-top: 4px;
+	text-align: center;
+}
+
+#top-arrow {
+	padding-top: 17px;
+	padding-bottom: 13px;
+}
+
+.navbar .sb-toggle-left {
+	width: 58px;
+	position: absolute;
+	padding: 14px;
+}
+.sb-toggle-left, .sb-toggle-right, .sb-open-left, .sb-open-right, .sb-close {
+	cursor: pointer;
+}
+
+.sb-right {
+	margin-top: 50px;
+}
+
+.navicon-line {
+	width: 24px;
+	height: 3px;
+	border-radius: 1px;
+	margin-bottom: 4px;
+	background-color: #E3235B;
+}
+
+ul.navbar-nav {
+	display: none;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+/* Slidebars */
+
+.sb-slidebar {
+	background-color: #f9f9f9;
+	border-right: 1px solid #DDDDDD;
+}
+
+/* Left */
+
+
+.sb-menu li .sb-open-right, .sb-menu li small {
+	display: inline-block;
+	padding: 14px;
+}
+
+/* Slidebar Type */
+
+.sb-slidebar, .sb-slidebar h3 {
+	color: #F0F0F0;
+}
+
+.sb-slidebar ul.sb-nav li a {
+	color: #DEDEDE;
+}
+
+.sb-slidebar ul.sb-nav li a:hover {
+	color: #C7C7C7;
+	text-decoration: none;
+}
+
+.sb-slidebar ul.sb-nav li span:hover {
+	color: #C7C7C7;
+}
+
+/* Anchor Links */
+#download, #api, #options, #helper-classes {
+	margin-top: -50px;
+	padding-top: 50px;
+}
+
+/* Helper Classes */
+.add-bottom-margin {
+	margin-bottom: 15px;
+}
+
+.no-bottom-margin {
+	margin-bottom: 0;
+}
+
+.add-top-margin {
+	margin-top: 15px;
+}
+
+.no-top-margin {
+	margin-top: 0;
+}
+
+.push-down {
+	position: relative;
+	top: 2px;
+}
+
+.profile span:first-child{
+	overflow: hidden;
+
+	border-radius: 5px;
+	margin-right: 10px;
+	border: 1px solid #dfdfdf;
+	background-color: #fff;
+	padding: 4px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.profile img{
+	overflow: hidden;
+	width: 54px;
+	height: 54px;
+}
+
+.sb-menu > li a{
+	background: url('../../Images/common/arrows.png') no-repeat 97% center;
+	background-size: 15px 15px;
+}
+.sb-menu > li img{
+	margin-top: -3px;
+}
+.sb-menu > li:first-child {
+	padding: 15px;
+	background-image: none;
+}
+
+.sb-menu > li:first-child img{
+	margin-top: 0;
+}
+
+.profile .name{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 54px;
+	height: auto;
+	/*display: inline-block;*/
+}
+.profile .sex img{
+	width: 18px;
+	height: 18px;
+	
+}
+
+.sb-menu > li:first-child .sex img{
+	margin-top: -5px;
+}
+.sb-menu > li span:first-child {
+	margin-right: 12px;
+}
+
+.tips{
+	float: right;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	line-height: 22px;
+	text-align: center;
+	font-size: 14px;
+	color: #FFF;
+	-webkit-border-radius: 50px;
+	background-color: #F7304D;
+	margin: 3px 8px 0 0;
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>iMes</title>
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+<meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+<meta content="no-cache" http-equiv="pragma">
+<meta content="0" http-equiv="expires">
+<meta content="telephone=no, address=no" name="format-detection">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+
+<link rel="stylesheet" href="../../css/global.css" type="text/css" />
+<link rel="stylesheet" href="css/index.css" type="text/css" />
+
+
+</head>
+
+<body>
+  
+  <div id="menu" class="menu">
+  	 <div class="menu-btn">
+        <p></p> 
+        <p></p> 
+        <p></p> 
+     </div>
+     <div class="heng"></div>
+     <p>
+       昆汀·塔伦蒂诺
+     </p>
+  </div>
+
+  <div class="the-card">
+     <p class="this-name">
+       昆汀·塔伦蒂诺
+     </p>
+     <p class="this-title">
+       一半是天才，一半是混蛋
+     </p>
+     <div class="this-pic">
+       <img src="images/theheader1.jpg">
+       <div>
+         <p>主要作品</p>
+         <ul>
+           <li>《杀死比尔》</li>
+           <li>《被解救的姜戈》</li>
+           <li>《无耻混蛋》</li>
+           <li>《低俗小说》</li>
+         </ul>
+       </div>
+     </div>
+  </div>
+
+  <p class="about">
+    美国导演，演员及奥斯卡获奖编剧。生于美国田纳西州的挪克斯维尔。昆汀这个名字来源于影片《枪之烟火》中的角色。
+  </p>
+
+  <div class="go-button">
+    <button  onclick="aa()">资料</button>
+    <button>经历</button>
+    <button  onclick="test()">成就</button>
+  </div>
+
+
+
+
+
+   <script type="text/javascript" src="../../js/ctsdk.js"></script>
+   <script type="text/javascript">
+        function clientInit(){}
+        document.body.scrollTop = 0;
+        function test(){
+            ctTransfer.openApp("500000","clientInit",{},"品牌汇");
+        }
+        function aa(){
+             ctTransfer.openApp("300000","clientInit",{},"品牌汇");
+          //  window.location.href="www.163.com";
+        }
+   </script>
+
+   <script data-main="js/index" src="../../js/lib/require.min.js"></script>
+
+ </div>
+</body>
+</html>

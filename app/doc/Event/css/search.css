@@ -1,0 +1,42 @@
+/* 搜索页 */
+#search-box{
+	position: absolute;
+	top: 7px;
+	left: 10%;
+	width: 75%;
+	height: 28px;	
+}
+
+.search-btn{
+	position: absolute;
+	top: 11px;
+	right: 7px;
+	width: 37px;
+	height: 20px;
+	color: #E1114E;
+}
+
+.search-list{
+	margin-top: 45px;
+}
+
+.btn{
+	  width: 95%;
+	  padding: 10px;
+	  border: none;
+	  margin: 10px auto 0;
+}
+
+.hot-search-view{
+	width: 95%;
+	margin: 5px auto 0;
+}
+
+.hot-search-view a{
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 1em;
+	background-color: #95E4F0;
+	color: #5c5c5c;
+	margin: 8px 8px 8px 0;
+}

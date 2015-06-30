@@ -8,4 +8,26 @@
 
 movie and share it for everyone
 
+###部分界面
+------------------
+
+[![](http://i.niupic.com/images/2015/06/30/5592b6667c89b.png)](http://mynameisblue.com)
+
+[![](http://i.niupic.com/images/2015/06/30/5592b66d0508c.png)](http://mynameisblue.com)
+
+[![](http://i.niupic.com/images/2015/06/30/5592b66ff3ab7.png)](http://mynameisblue.com)
+
+[![](http://i.niupic.com/images/2015/06/30/5592b673237bc.png)](http://mynameisblue.com)
+
+
+
+
+
+
+
+
+
+
+
+
 
